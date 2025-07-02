@@ -5,7 +5,7 @@ test('form interaction example', async ({ page }) => {
   //check the present field
   
   // Fill out a form
-  await page.fill('input[name="custname"]', 'John Doe Sample1');
+  await page.fill('input[name="custname"]', 'John Doe Sample1'); dsojfs dsklfnkdsnf
   await page.fill('input[name="custtel"]', '123-456-7890');
   await page.fill('input[name="custemail"]', 'john@example.com');
   await page.check('input[value="large"]');
